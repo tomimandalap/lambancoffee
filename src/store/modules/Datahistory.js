@@ -34,7 +34,10 @@ const modulHistory = {
   },
   actions: {
     actionGetHistory (contex, data) {
-      axios.get(`${getMixins.data().serverUrl}/history?page=${data.page}&limit=${data.limit}`, {
+      // console.log(contex)
+      // console.log(data)
+      // const ma = '50'
+      axios.get(`${getMixins.data().serverUrl}/history?search=${data.search}&keyword=${data.keyword}&page=${data.page}&limit=${data.limit}`, {
         headers: {
           token: contex.rootState.auth.token
         }

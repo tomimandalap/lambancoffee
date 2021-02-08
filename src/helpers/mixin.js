@@ -3,7 +3,7 @@ const mixins = {
   data () {
     return {
       serverUrl: process.env.VUE_APP_URL,
-      linkIG: process.env.VUE_APP_IG,
+      linkgitHub: process.env.VUE_APP_GITHUB,
       form: { // for update dan add items
         name: '',
         image: '',

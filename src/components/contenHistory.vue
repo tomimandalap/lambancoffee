@@ -62,11 +62,18 @@
     </div>
     <!-- box revenue end -->
     <!-- box recent order -->
-    <div v-if="!getErrStatus" class="row" id="history-order">
-      <div class="col-12 col-md-12">
-        <div class="recent-box">
-          <p><b>Recent Order</b></p>
-          <!-- tables -->
+    <div class="row" id="history-order">
+      <div class="recent-box">
+        <p class="ml-2"><b>Recent Order</b></p>
+        <div class="col-5 box-search mb-4 ml-n2" id="box-search">
+          <b-form-input
+            type="text"
+            v-model="formData.keyword"
+            @keyup="searchTable()"
+            placeholder="Search code invoices"
+          ></b-form-input>
+        </div>
+        <div v-if="!getErrStatus" class="col-12 col-md-12">
           <table class="tables" id="my-table">
             <thead class="bg-dark" style="color: #fff">
               <tr>
@@ -117,14 +124,10 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div v-else>
-      <div class="col-12 col-md-12">
-        <div class="recent-box">
-          <p><b>Recent Order</b></p>
-          <h4>{{ getErrCode }}</h4>
-          <h3>Data tabel {{ getErrMsg }}!</h3>
+        <div v-else class="col-12 col-md-12">
+          <div>
+            <h3>Data tabel {{ getErrMsg }}!</h3>
+          </div>
         </div>
       </div>
     </div>
@@ -193,6 +196,8 @@ export default {
   data () {
     return {
       formData: {
+        search: 'invoices',
+        keyword: '',
         page: 1,
         limit: 5
       },
@@ -217,6 +222,13 @@ export default {
       actionDetailHistory: 'mHistory/actionDetailHistory',
       deleteDetailHistory: 'mHistory/deleteDetailHistory'
     }),
+    searchTable () {
+      this.actionGetHistory(this.formData).then((response) => {
+        // console.log(response)
+      }).catch((error) => {
+        console.log(error)
+      })
+    },
     pageHistory () {
       this.actionGetHistory(this.formData)
     },

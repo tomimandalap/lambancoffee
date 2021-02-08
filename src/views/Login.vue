@@ -22,10 +22,9 @@
       <button class="btn btn-info mb-4" @click="btnRegister()">
         <i class="far fa-address-card"></i> Register
       </button>
-      <!-- <a :href="`${linkIG}`" style="text-decoration: none; color: #555"
-        >&copy; Lamban Coffee 2021</a
-      > -->
-      <a v-custlink="{ color: '#555', decoration: 'none' }" :href="`${linkIG}`"
+      <a
+        v-custlink="{ color: '#555', decoration: 'none' }"
+        :href="`${linkgitHub}`"
         >&copy; Lamban Coffee 2021</a
       >
     </section>
