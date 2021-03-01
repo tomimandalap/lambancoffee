@@ -130,7 +130,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-[lambancoffee]: http://52.204.186.223:40011/
+[lambancoffee]: http://52.204.186.223:5000/
 [html dan css]: https://github.com/tomimandalap/deliveryfastfood
 [b-frontend]: https://github.com/tomimandalap/bfrontend
 [beginner-backend]: https://github.com/tomimandalap/beginer_backend
