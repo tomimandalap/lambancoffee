@@ -1,6 +1,6 @@
-# Lamban Coffee (Rumah Coffee)
+# Web Cashier
 
-Project membuat web pemesanan yang saya beri nama Lamban Coffee yang sedikit lebih disempurnakan secara tampilan maupun fungsinya dari project [html dan css] maupaun project [b-frontend], Project ini dipermisalkan sebagai alat untuk transaksi panjualan di kedai Lamban Coffee yang terhubung dengan database REST API atau terintegrasi dengan project [beginner-backend]. Materi presentasi klik [disini]
+Project membuat web pemesanan yang saya beri nama Web Cashier yang sedikit lebih disempurnakan secara tampilan maupun fungsinya dari project [html dan css] Project ini dipermisalkan sebagai alat untuk transaksi panjualan di kedai Coffee yang terhubung dengan database REST API atau terintegrasi dengan backend. Materi presentasi klik [disini]
 
 ## Test Deploy
 
@@ -151,3 +151,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ![All device](https://user-images.githubusercontent.com/43200304/107140975-6ce64180-6958-11eb-9dd8-f1d0a422f43f.png)
 
 ---
+
+### Repositori Backend
+Silahkan kunjungi link berikut ini [beginner-backend]
