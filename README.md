@@ -4,7 +4,7 @@ Project membuat web pemesanan yang saya beri nama Web Cashier yang sedikit lebih
 
 ## Test Deploy
 
-- Silahkan kunjungi link berikut ini [lambancoffee]. 
+- Silahkan kunjungi link berikut ini [web-cashier]. 
 - Pastikan teman-teman untuk melakukan registrasi terlebih dahulu pilih menjadi admin atau cashier.
 - Jika sudah melakukan registrasi, silahkan login menggunakan email dan password yang didaftarkan.
 - Jika kamu memilih menjadi admin maka kamu akan memperoleh hak akses terbatas.
@@ -130,7 +130,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
 
-[lambancoffee]: http://52.204.186.223:5000/
+[web-cashier]: http://52.204.186.223:5000/
 [html dan css]: https://github.com/tomimandalap/deliveryfastfood
 [b-frontend]: https://github.com/tomimandalap/bfrontend
 [beginner-backend]: https://github.com/tomimandalap/beginer_backend
