@@ -2,14 +2,6 @@
 
 Project membuat web pemesanan yang saya beri nama Web Cashier yang sedikit lebih disempurnakan secara tampilan maupun fungsinya dari project [html dan css] Project ini dipermisalkan sebagai alat untuk transaksi panjualan di kedai Coffee yang terhubung dengan database REST API atau terintegrasi dengan backend. Materi presentasi klik [disini]
 
-## Test Deploy
-
-- Silahkan kunjungi link berikut ini [web-cashier]. 
-- Pastikan teman-teman untuk melakukan registrasi terlebih dahulu pilih menjadi admin atau cashier.
-- Jika sudah melakukan registrasi, silahkan login menggunakan email dan password yang didaftarkan.
-- Jika kamu memilih menjadi admin maka kamu akan memperoleh hak akses terbatas.
-- Jika kamu memilih menjadi cashier maka kamu akan memperoleh hak akses penuh.
-
 ## Rule Access
 
 <!DOCTYPE html>
@@ -154,3 +146,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Repositori Backend
 Silahkan kunjungi link berikut ini [beginner-backend]
+
+## Test Deploy
+
+- Silahkan kunjungi link berikut ini [web-cashier]. 
+- Pastikan teman-teman untuk melakukan registrasi terlebih dahulu pilih menjadi admin atau cashier.
+- Jika sudah melakukan registrasi, silahkan login menggunakan email dan password yang didaftarkan.
+- Jika kamu memilih menjadi admin maka kamu akan memperoleh hak akses terbatas.
+- Jika kamu memilih menjadi cashier maka kamu akan memperoleh hak akses penuh.
